@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-install dependencies npm install
+install dependencies: ```npm install```
 
 Edit .env file:
 ```dotenv
