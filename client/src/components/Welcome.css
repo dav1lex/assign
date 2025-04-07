@@ -1,0 +1,85 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.welcome-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.welcome-title {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.welcome-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.session-timer {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-left: 4px solid #4caf50;
+}
+
+.session-timer p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.session-timer span {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}
+
+@media (max-width: 480px) {
+  .welcome-content {
+    padding: 1.5rem;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .welcome-text {
+    font-size: 1rem;
+  }
+
+  .session-timer {
+    padding: 0.5rem;
+  }
+
+  .logout-button {
+    padding: 0.6rem 1.2rem;
+  }
+}
